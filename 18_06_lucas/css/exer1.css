@@ -1,0 +1,97 @@
+
+/* Esse é o primeiro documento.css. 
+
+Nele estão sendo apresentados a parte visual do menu e de seus componentes.
+*/
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+body
+{
+    font-family: fantasy;
+    background: url("../img/img2.jpg");
+    background-size: 100%;
+}
+img
+{
+    width: 40px;
+}
+input[type=checkbox]
+{
+    display: none;
+}
+nav
+{
+    background-color: rgba(16, 16, 16, .5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+input[type=checkbox]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+a
+{
+    display: block;
+    padding: 20px 5px;
+    color: rgb(153, 152, 152);
+}
+a:hover
+{
+    background-color: rgba(31,53,63,255);
+    color: #36a389;
+}
+.a2:hover
+{
+    background-color: #84392d;
+    color: #e9975c;
+}
+label
+{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+ul
+{
+    top: 65px;
+    position: absolute;
+    width: 100%;
+}
+
+.nome
+{
+    float: right;
+    background-color: rgb(96, 96, 255);
+    padding-right: 100px;
+    font-size: 50px;
+    margin-top: 30px;
+    width: 600px;
+}
+
+.nome1
+{
+    width: 50px;
+    height: 10px;
+    margin-top: 40px;
+}
+.direitos
+{
+    background-color: rgb(0, 0, 51);
+    margin-top: 41.95%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}

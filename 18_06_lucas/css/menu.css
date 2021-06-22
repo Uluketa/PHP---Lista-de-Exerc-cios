@@ -1,0 +1,19 @@
+
+/* Nesse arquivo.css serão apresentadas informações de preenchimento visual das páginas php do trabalho. */
+
+body
+{
+    background-image: url(../img/img2.jpg);
+}
+
+.voltar
+{
+    background-color: darkcyan;
+    text-decoration: black;
+    width: 1000px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    margin: black 2px;
+}
